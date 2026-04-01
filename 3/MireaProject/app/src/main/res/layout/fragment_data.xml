@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="#F8FAFF">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Отрасль: разработка мобильных приложений"
+            android:textColor="#1B1F3B"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:lineSpacingExtra="4dp"
+            android:text="Разработка мобильных приложений — это отрасль, которая занимается созданием программ для смартфонов и планшетов. Сегодня она востребована в образовании, медицине, банковской сфере, логистике, торговле и развлечениях."
+            android:textColor="#2E3A59"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Ключевые направления"
+            android:textColor="#3949AB"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:lineSpacingExtra="4dp"
+            android:text="• нативная Android-разработка\n• кроссплатформенная разработка\n• проектирование интерфейсов\n• тестирование и публикация приложений"
+            android:textColor="#2E3A59"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Почему отрасль важна"
+            android:textColor="#3949AB"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:lineSpacingExtra="4dp"
+            android:text="Мобильные приложения позволяют быстро получать услуги, взаимодействовать с цифровыми сервисами и автоматизировать повседневные задачи. Для компаний мобильное приложение — это инструмент общения с клиентом и развития бизнеса."
+            android:textColor="#2E3A59"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Навыки специалиста"
+            android:textColor="#3949AB"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:lineSpacingExtra="4dp"
+            android:text="Разработчику нужны знания Java/Kotlin, понимание жизненного цикла Activity и Fragment, работа с сетью, базами данных, пользовательским интерфейсом и принципами Material Design."
+            android:textColor="#2E3A59"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>
