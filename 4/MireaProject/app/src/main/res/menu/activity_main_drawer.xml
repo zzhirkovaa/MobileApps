@@ -4,15 +4,20 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:title="Главная" />
+            android:title="@string/menu_home" />
 
         <item
             android:id="@+id/nav_data"
-            android:title="DataFragment" />
+            android:title="@string/menu_data" />
 
         <item
             android:id="@+id/nav_webview"
-            android:title="WebViewFragment" />
+            android:title="@string/menu_webview" />
+
+        <item
+            android:id="@+id/nav_background_task"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/menu_background_task" />
     </group>
 
 </menu>

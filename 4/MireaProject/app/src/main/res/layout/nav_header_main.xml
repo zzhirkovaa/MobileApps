@@ -11,7 +11,7 @@
         android:id="@+id/textHeaderTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MireaProject"
+        android:text="@string/nav_header_title"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="Контрольное задание"
+        android:text="@string/nav_header_subtitle"
         android:textColor="@android:color/white"
         android:textSize="14sp" />
 
