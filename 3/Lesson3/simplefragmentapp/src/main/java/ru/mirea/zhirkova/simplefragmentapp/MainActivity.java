@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     Fragment fragment1, fragment2;
     FragmentManager fragmentManager;
+    private View fragmentContainer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,8 +20,9 @@ public class MainActivity extends AppCompatActivity {
 
         fragment1 = new FirstFragment();
         fragment2 = new SecondFragment();
+        fragmentContainer = findViewById(R.id.fragmentContainer);
 
-        if (savedInstanceState == null) {
+        if (fragmentContainer != null && savedInstanceState == null) {
             getSupportFragmentManager()
                     .beginTransaction()
                     .replace(R.id.fragmentContainer, fragment1)
@@ -29,6 +31,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClick(View view) {
+        if (fragmentContainer == null) {
+            return;
+        }
+
         fragmentManager = getSupportFragmentManager();
 
         int id = view.getId();
