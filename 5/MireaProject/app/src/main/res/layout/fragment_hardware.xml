@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textHardwareTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Аппаратная часть устройства"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/textSensorTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Датчик освещённости"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textLightValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Освещённость: ожидание данных..."
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textLightConclusion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Вывод: ожидание данных..."
+            android:textSize="18sp"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/textCameraTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Камера"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textCameraDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Творческая задача: фото-профиль аппаратной части устройства"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/buttonTakePhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Сделать фото"
+            android:layout_marginBottom="12dp" />
+
+        <ImageView
+            android:id="@+id/imageCameraResult"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:src="@android:drawable/ic_menu_camera"
+            android:scaleType="centerCrop"
+            android:contentDescription="Результат камеры"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/textMicrophoneTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Микрофон"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textMicrophoneDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Задача: запись и воспроизведение голосовой заметки"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textAudioStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Статус: запись не выполнялась"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/buttonRecordAudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Начать запись голосовой заметки"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/buttonPlayAudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Воспроизвести голосовую заметку"
+            android:enabled="false"
+            android:layout_marginBottom="24dp" />
+
+    </LinearLayout>
+
+</ScrollView>
