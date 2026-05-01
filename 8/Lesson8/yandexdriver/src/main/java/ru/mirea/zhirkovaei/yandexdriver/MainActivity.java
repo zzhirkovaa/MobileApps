@@ -102,11 +102,14 @@ public class MainActivity extends AppCompatActivity {
     private final MapObjectTapListener cafeTapListener = new MapObjectTapListener() {
         @Override
         public boolean onMapObjectTap(@NonNull MapObject mapObject, @NonNull Point point) {
-            Toast.makeText(
-                    MainActivity.this,
-                    CAFE_NAME + "\n" + CAFE_ADDRESS + "\n" + CAFE_DESCRIPTION,
-                    Toast.LENGTH_LONG
-            ).show();
+            new androidx.appcompat.app.AlertDialog.Builder(MainActivity.this)
+                    .setTitle(CAFE_NAME)
+                    .setMessage(
+                            "Адрес: " + CAFE_ADDRESS + "\n\n" +
+                                    "Описание: " + CAFE_DESCRIPTION
+                    )
+                    .setPositiveButton("OK", null)
+                    .show();
 
             return true;
         }
