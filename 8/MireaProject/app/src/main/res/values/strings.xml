@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">MireaProject</string>
+    <string name="navigation_drawer_open">Открыть навигационное меню</string>
+    <string name="navigation_drawer_close">Закрыть навигационное меню</string>
+    <string name="menu_home">Главная</string>
+    <string name="menu_data">Данные</string>
+    <string name="menu_webview">WebView</string>
+    <string name="nav_header_title">MireaProject</string>
+    <string name="nav_header_subtitle">Контрольное задание практики 3</string>
+    <string name="title_home">Главная</string>
+    <string name="title_data">Данные</string>
+    <string name="title_webview">WebView</string>
+    <string name="home_welcome">Главный экран проекта MireaProject</string>
+    <string name="home_hint">Откройте боковое меню и выберите нужный фрагмент</string>
+    <string name="menu_background_task">Фоновая задача</string>
+    <string name="title_background_task">Фоновая задача</string>
+    <string name="background_task_description">Запуск фоновой задачи через WorkManager</string>
+    <string name="start_background_task">Запустить задачу</string>
+    <string name="status_waiting">Ожидание запуска...</string>
+    <string name="result_empty">Результат пока отсутствует</string>
+    <string name="background_task_status_waiting">Ожидание запуска...</string>
+    <string name="background_task_status_failed">Ошибка выполнения задачи</string>
+    <string name="background_task_result_template">Фоновая задача завершена в %1$s</string>
+    <string name="menu_hardware">Аппаратная часть</string>
+    <string name="menu_profile">Профиль</string>
+    <string name="menu_files">Работа с файлами</string>
+
+    <string name="profile_title">Профиль</string>
+    <string name="profile_name_hint">Введите имя</string>
+    <string name="profile_group_hint">Введите группу</string>
+    <string name="profile_number_hint">Введите номер по списку</string>
+    <string name="profile_language_hint">Любимый язык программирования</string>
+    <string name="profile_status_hint">Статус или описание</string>
+    <string name="profile_save_button">Сохранить профиль</string>
+    <string name="profile_saved">Профиль сохранён</string>
+
+    <string name="files_title">Работа с файлами</string>
+    <string name="files_description">Создание, шифрование и чтение текстовых записей</string>
+    <string name="files_file_name_hint">Название файла</string>
+    <string name="files_encrypted_text">Зашифрованный текст</string>
+    <string name="files_decrypted_text">Расшифрованный текст</string>
+    <string name="files_load_button">Загрузить запись</string>
+    <string name="files_dialog_title">Создание записи</string>
+    <string name="files_dialog_file_name_hint">Название файла, например note.txt</string>
+    <string name="files_dialog_text_hint">Введите текст записи</string>
+    <string name="files_dialog_save">Сохранить</string>
+    <string name="files_dialog_cancel">Отмена</string>
+    <string name="files_saved">Запись сохранена</string>
+    <string name="files_error_empty">Заполните все поля</string>
+    <string name="files_error_not_found">Файл не найден</string>
+    <string name="menu_places">Заведения</string>
+</resources>
